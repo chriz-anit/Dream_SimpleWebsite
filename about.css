@@ -1,0 +1,67 @@
+body{
+	font-family: Cambria,Georgia,Times,'Times New Roman',serif;
+	background-color: #0d0d0d;
+	margin: 10px;
+}
+
+.Navbar{
+	margin-top: 15px; 
+	float: right;
+	padding-right: 5px;
+}
+
+.Navbar a.active{
+	background: #00e6e6;
+	box-shadow:  1px 1px 4px #00e6e6;
+}
+
+.Navbar a:hover{
+	background: #ffff;
+	color: #000000;
+	box-shadow:  1px 1px 4px #ffff;
+}
+
+.Navbar a{
+	padding: 4px;
+	margin: 10px;
+	font-size: 18px;
+	text-decoration: solid;
+	color: white;
+	border-radius: 15px;
+	text-shadow: 2px 2px 4px #0000;
+	font-family:'Brush Script MT',cursive;
+}
+
+.About{
+	background-color: #333333;
+	text-align: center;
+	margin-right: 20%;
+	margin-left: 20%;
+	margin-bottom: 5%;
+	padding-bottom: 25px;
+	transition:2s;
+	transform: translateY(3%);
+	/*transform: rotate(360deg);*/
+}
+.About h1{
+	font-size: 30px;
+	text-decoration: solid;
+	padding-top: 10px;
+	color: white;
+	border-radius: 15px;
+	text-shadow: 2px 2px 4px #0000;
+	font-family:'Brush Script MT',cursive;
+}
+.About p{
+	font-size: 18px;
+	text-decoration: solid;
+	color: white;
+	border-radius: 15px;
+	text-shadow: 2px 2px 4px #0000;
+	font-family:'Brush Script MT',cursive;
+}
+
+.About img{
+	max-width: 70%;
+	padding-bottom: 20px;
+}
